@@ -1,0 +1,45 @@
+.carddemoBasicUsage .card-media {
+  background-color: #999999;
+}
+
+.md-center {
+  margin: 0 auto;
+  width: 90%;
+}
+.filter {
+  width: 50%;
+}
+#booking {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin: auto;
+}
+
+#booking td,
+#booking th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#booking tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#booking tr:hover {
+  background-color: #ddd;
+}
+
+#booking th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4caf50;
+  color: white;
+}
+
+#Container {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 800px;
+}
