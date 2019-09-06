@@ -3,6 +3,7 @@ Aplicacion creada en AngularJS version 1.7.6 Librerias utilizadas: Angular Mater
 
 La aplicacion consta de dos Factories:
 LoginServices: Servicio encargado de realizar las peticiones al api para login
+
 BookingServices: Servicio encargado de realizar las peticiones para listado de booking.
 
 Contamos con un archivo route.js que contiene las rutas de la aplicacion.
@@ -10,4 +11,5 @@ Contamos un archivo config que contiene las constantes que utilizamos en nuestra
 
 La aplicacion consta de 2 controladores asociados a dos template html:
 loginController: Controlador encargdo de realizar llamado a servicio de login y de almacenar token en un storage local
+
 bookingController: Controlador encargado de realizar llamado a servicio de booking. Este controlador validara si el token esta vivio. Este controlador tambien se encargara de realizar filtro a la vista del listado
