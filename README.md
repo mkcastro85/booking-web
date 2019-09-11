@@ -19,6 +19,7 @@ Opciones para ejecutar:
 
 opcion1 Ejecutar con npm:
 npm build
+
 node app.js
 
 Opcion2 Ejecutar en apache:
