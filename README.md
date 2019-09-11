@@ -13,3 +13,13 @@ La aplicacion consta de 2 controladores asociados a dos template html:
 loginController: Controlador encargdo de realizar llamado a servicio de login y de almacenar token en un storage local
 
 bookingController: Controlador encargado de realizar llamado a servicio de booking. Este controlador validara si el token esta vivio. Este controlador tambien se encargara de realizar filtro a la vista del listado
+
+NUEVO:
+Opciones para ejecutar:
+
+opcion1 Ejecutar con npm:
+npm build
+node app.js
+
+Opcion2 Ejecutar en apache:
+Colocar carpeta de la aplicacion en server apache
